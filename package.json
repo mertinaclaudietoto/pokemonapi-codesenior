@@ -4,7 +4,7 @@
   "description": "developpement api rest pokemon",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/mertinaclaudietoto/pokemonapi-codesenior/issues"
   },
-  "homepage": "https://github.com/mertinaclaudietoto/pokemonapi-codesenior#readme"
+  "homepage": "https://github.com/mertinaclaudietoto/pokemonapi-codesenior#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
