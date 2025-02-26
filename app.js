@@ -1,0 +1,1 @@
+console.log("je vais etre un developpeur fullstack senior javascript");

@@ -1,0 +1,22 @@
+{
+  "name": "pokemonapi-codesenior",
+  "version": "1.0.0",
+  "description": "developpement api rest pokemon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertinaclaudietoto/pokemonapi-codesenior.git"
+  },
+  "keywords": [
+    "apirest"
+  ],
+  "author": "mertinaclaudietoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mertinaclaudietoto/pokemonapi-codesenior/issues"
+  },
+  "homepage": "https://github.com/mertinaclaudietoto/pokemonapi-codesenior#readme"
+}
