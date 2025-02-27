@@ -29,6 +29,22 @@ app.get('/api/pokemons/:id', (req, res) => {
     res.json(success(message,pokemon));
 });
 
+app.push('/api/pokemons/:id', (req, res) => {
+    const id=parseInt(req.params.id) ;
+    const pokemenUpdate={...req.body,id:id}
+    pokemons=pokemons.map(pokemon=>pokemon.id===id ?pokemenUpdate : pokemon);
+    const message="valeur modifier";
+    res.json(success(message,pokemon));
+});
+
+app.delete('/api/pokemons/:id', (req, res) => {
+    const id=parseInt(req.params.id) ;
+    const pokemenUpdate={...req.body,id:id}
+    pokemons=pokemons.filter(pokemon=>pokemon.id!==id );
+    const message="valeur supprimer";
+    res.json(success(message,pokemons));
+});
+
 app.get('/api/pokemons', (req, res) => {
     const message ="la liste de pokemons";
     res.json(success(message,pokemons));
